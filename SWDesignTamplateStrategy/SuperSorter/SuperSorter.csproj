@@ -43,11 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\GeneratingFactory\ArrayGeneratorFactory.cs" />
+    <Compile Include="Factories\GeneratingFactory\GeneratingControl.cs" />
+    <Compile Include="Factories\GeneratingFactory\NearlySortedArrayGeneratorFactory.cs" />
+    <Compile Include="Factories\SortingFactory\ConcreteQuickSortFactory.cs" />
+    <Compile Include="Factories\SortingFactory\SortingControl.cs" />
+    <Compile Include="Factories\SortingFactory\ConcreteSelectionSortFactory.cs" />
+    <Compile Include="Generating\ArrayGenerator.cs" />
+    <Compile Include="Generating\ConcreteArrayClass.cs" />
+    <Compile Include="Generating\IArrayGenerator.cs" />
+    <Compile Include="Generating\NearlySortedArray.cs" />
+    <Compile Include="Generating\ReverseOrderedArray.cs" />
+    <Compile Include="GlobalMethodForEnheritance\Exchanging.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sortings\ConcreteSorting.cs" />
+    <Compile Include="Sortings\QuickSort.cs" />
+    <Compile Include="Sortings\ISorting.cs" />
+    <Compile Include="Sortings\SelectionSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
